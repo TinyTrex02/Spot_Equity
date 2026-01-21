@@ -34,7 +34,7 @@ import traceback
 
 # use YF for data 
 
-# python3 /Users/rexy/Desktop/EthResearch/Strategies/spx_spot.py --data_file "/Users/rexy/Desktop/EthResearch/Data/NIFTY.csv" --symbol NIFTY --output /Users/rexy/Desktop/EthResearch/Results
+# python3 /Users/rexy/Desktop/EthResearch/Spot_Equity/spot.py --data_file "/Users/rexy/Desktop/EthResearch/Spot_Equity/Data/NIFTY.csv" --symbol NIFTY --output /Users/rexy/Desktop/EthResearch/Spot_Equity/Results
 
 
 # ==================== CONFIGURATION SECTION ====================
@@ -62,7 +62,7 @@ DEFAULT_CONFIG = {
 
     # Alternative Asset During Idle (e.g., Gold when not in SPX)
     'hold_alt_asset_when_idle': True,   # Enable/disable holding alt asset during idle
-    'alt_asset_file': '/Users/rexy/Desktop/EthResearch/Data/GOLDBEES.csv',  # Path to alt asset CSV
+    'alt_asset_file': '/Users/rexy/Desktop/EthResearch/Spot_Equity/Data/GOLDBEES.csv',  # Path to alt asset CSV
     'alt_asset_symbol': 'GOLD',         # Symbol name for alt asset (for display)
     'alt_asset_allocation_pct': 100,    # % of portfolio to allocate to alt asset (0-100)
 }
